@@ -31,11 +31,11 @@ var Main = React.createClass({
               <div className="panel-body text-center">
                 <form>
                   <label for="topic">Topic:</label>
-                  <input type="text" name="topic" id="topic-name">
+                  <input type="text" name="topic" id="topic-name"/>
                   <label for="startYear">Start Year:</label>
-                  <input type="text" name="startYear" id="start-year">
+                  <input type="text" name="startYear" id="start-year"/>
                   <label for="endYear">End Year:</label>
-                  <input type="text" name="endYear" id="end-year">
+                  <input type="text" name="endYear" id="end-year"/>
                   <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
               </div>
