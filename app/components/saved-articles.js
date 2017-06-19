@@ -1,16 +1,17 @@
+// Require React
 var React = require("react");
 
-var Result = React.createClass({
-  render: function(){
+var Saved = React.createClass({
+  render:function(){
     return(
       <div className="row">
         <div className="col-md-12">
           <div className="panel panel-default">
             <div className="panel-heading">
-              <h3 className="panel-title text-center">Result</h3>
+              <h3 className="panel-title text-center">Saved Articles</h3>
             </div>
             <div className="panel-body text-center">
-              <h3>Result div</h3>
+              <h3>Saved Articles</h3>
             </div>
           </div>
         </div>
@@ -19,4 +20,4 @@ var Result = React.createClass({
   }
 });
 
-module.exports = Result;
+module.exports = Saved;

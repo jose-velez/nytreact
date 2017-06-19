@@ -2,8 +2,9 @@
 var React = require("react");
 
 // Include the subcomponents
-var Search = require("./search");
-
+//var Search = require("./search");
+var Result = require("./result");
+var Saved = require("./saved-articles");
 // Creating the main component
 
 var Main = React.createClass({
@@ -42,7 +43,8 @@ var Main = React.createClass({
             </div>
           </div>
         </div>
-          <result/>
+          <Result/>
+          <Saved/>
       </div>
     );
   }
